@@ -38,7 +38,7 @@
 body{
   background-color: #333;
 }
-p{
+strong{
     text-align: center;
     color: rgb(255, 128, 156);
     margin: 190px 20px 20px;
