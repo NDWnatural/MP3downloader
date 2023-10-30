@@ -33,15 +33,15 @@
 }
 
 .nav-el a:hover {
-    color: rgb(255, 196, 0);
+    color: rgb(255, 128, 156);
 }
 body{
   background-color: #333;
 }
-H1{
+p{
     text-align: center;
-    color: rgb(255, 196, 0);
+    color: rgb(255, 128, 156);
     margin: 190px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 60px;
 }
