@@ -1,11 +1,11 @@
 .elementos{
     list-style-type: none;
     margin: 0;
-    padding: 0;nav-el
+    padding: 0;
     overflow: hidden;
     background-color: #333;
 }
-.nav-el{
+.navel{
     float: inline-end;
 }width: 100%;
     transition: transform 0.5s;
@@ -14,7 +14,7 @@
     margin-inline-start: 40px;
     list-style-type: none;
 }
-.nav-el a{
+.navel a{
     display: block;
     color: rgb(190, 190, 190);
     text-align: center;
@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.nav-el a:hover{
+.navel a:hover{
     color: rgb(255, 128, 156);
 }
 body{
