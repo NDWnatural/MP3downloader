@@ -9,7 +9,7 @@
     float: inline-end;
 }width: 100%;
     transition: transform 0.5s;
-.el{
+.navel{
     float: inline-start;
     margin-inline-start: 40px;
     list-style-type: none;
