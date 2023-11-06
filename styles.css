@@ -23,14 +23,13 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13PX;
     align-items: center;
-    transition: font-size 0.3s;
 }
 
 .nav-el a:hover {
     color: rgb(255, 128, 156);
 }
 body{
-  background-color: #333;
+  background-color: #333;texto-aumentavel
 }
 strong{
     text-align: center;
@@ -39,6 +38,14 @@ strong{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
-elementos:hover{
-    font-size: 15px
-}
+.nav-bar {
+    font-size: 24px;
+    transition: font-size 0.3s;
+    text-align: center;
+    width: 200px;
+    margin: 100px auto;
+  }
+  
+  .nav-bar:hover {
+    font-size: 30px;
+  }
