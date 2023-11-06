@@ -7,7 +7,8 @@
 }
 .nav-el {
     float: inline-end;
-}
+}width: 100%;
+    transition: transform 0.5s;
 .el{
     float: inline-start;
     margin-inline-start: 40px;
@@ -37,6 +38,8 @@ strong{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
-nav-el:{
-    transform: scale(1.1)
+nav-el{
+    transform: scale(1.2);
+    width: 100%;
+    transition: transform 0.5s;
 }
