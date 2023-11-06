@@ -38,14 +38,3 @@ strong{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
 }
-.navbar {
-    font-size: 24px;
-    transition: font-size 0.3s;
-    text-align: center;
-    width: 200px;
-    margin: 100px auto;
-  }
-  
-  .navbar:hover {
-    font-size: 30px;
-  }
