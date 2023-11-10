@@ -27,6 +27,7 @@
 
 .navel a:hover{
     color: rgb(255, 128, 156);
+    font-size: 15px
 }
 body{
   background-color: #333;
