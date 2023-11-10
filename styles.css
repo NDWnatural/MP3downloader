@@ -40,7 +40,8 @@ text-center {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(25),
-    blinking 0.5s;
+    blinking 0.5s infinite step-end
+    alternate;
 }
 @keyframes typing{
     from {
