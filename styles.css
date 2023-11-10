@@ -23,6 +23,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13PX;
     align-items: center;
+    transform:3s;
 }
 
 .navel a:hover{
