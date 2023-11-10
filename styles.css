@@ -23,12 +23,12 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13PX;
     align-items: center;
-    transform:3s;
+    transition: 0.6s;
 }
 
 .navel a:hover{
     color: rgb(255, 128, 156);
-    font-size: 15px
+    font-size: 14px
 }
 body{
   background-color: #333;
