@@ -44,3 +44,7 @@ body{
       max-width: 600px;
       
     }
+    .bem{
+          color: rgb(255, 128, 156);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
