@@ -39,7 +39,8 @@ text-center {
     width: 25ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s;
+    animation: typing 2s steps(25),
+    blinking 0.5s;
 }
 @keyframes typing{
     from {
