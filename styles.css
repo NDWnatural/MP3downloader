@@ -41,7 +41,17 @@ body{
       max-width: 600px;
       
     }
-    .bem{
-          color: rgb(255, 128, 156);
-          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .home-content{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
+    #vindo{
+        color: rgb(255, 128, 156);
+        margin-bottom: 0px;
+    }
+    #mp{
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+    #texto{
+        margin-top: 7px;
+}
