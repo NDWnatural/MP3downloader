@@ -44,14 +44,14 @@ body{
     .home-content{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
-    .vindo{
+    #vindo{
         color: rgb(255, 128, 156);
         margin-bottom: 0px;
     }
-    .mp{
+    #mp{
         margin-top: 1px;
         margin-bottom: 0px;
     }
-    .texto{
+    #texto{
         margin-top: 7px;
 }
