@@ -11,11 +11,9 @@ body{
 }
 .navel{
     float: inline-end;
-}
-.navel{
-    float: inline-start;
     margin-inline-start: 40px;
     list-style-type: none;
+    transition: transform= 0.10s;
 }
 .navel a{
     display: block;
