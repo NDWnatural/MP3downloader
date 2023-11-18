@@ -11,8 +11,9 @@ body{
 }
 .navel{
     float: inline-end;
-}width: 100%;
+    width: 100%;
     transition: transform 0.5s;
+}
 .navel{
     float: inline-start;
     margin-inline-start: 40px;
