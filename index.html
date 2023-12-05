@@ -7,14 +7,28 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 </body>
-  <nav class="navbar">
-  <ul class="elementos">
-       <li class="navel"><a href="https://ndwnatural.github.io/MP3downloader/">HOME</a></li>
-       <li class="navel"><a href="https://abobus-snowy.vercel.app/#home">DOWNLOAD</a></li>
-       <li class="navel"><a href="https://ndwnatural.github.io/teste2/">PESQUISA</a></li>
-       <li class="navel"><a href="https://ndwnatural.github.io/sobrenos/">SOBRE</a></li>
-  </ul>
-  </nav>
+      <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </button>
+        <div class="navigation_header" class="logo_header">
+            
+        </div>
+        <div class="navigation_header" id="navigation_header">
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+            <a href="https://ndwnatural.github.io/MP3downloader/" class="active">HOME</a>
+            <a href="https://abobus-snowy.vercel.app/#home">DOWLOAD</a>
+            <a href="https://ndwnatural.github.io/sobrenos/">SOBRE</a>
+            <a href="https://ndwnatural.github.io/teste2/">PESQUISA</a>
+        </div>
+    </div>
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
   <section class="home">
   <div class="home-content">
     <h1 class="bem" id="vindo">Oi,Bem vindo ao nosso site</h1>
