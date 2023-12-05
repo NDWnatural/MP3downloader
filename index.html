@@ -34,5 +34,46 @@
     <h1 class="bem" id="vindo">Oi,Bem vindo ao nosso site</h1>
     <h3 class="bem" id="mp">MP3 DOWLOAD</h3>
     <P class="bem" id="texto">Bem-vindo ao nosso site de download de vídeos e músicas! Aqui, oferecemos uma plataforma fácil e intuitiva para você baixar seus vídeos favoritos e músicas em questão de segundos. Com uma ampla variedade de opções de formatos e qualidade, garantimos uma experiência de download rápida e eficiente.</P>
-</body>
+    <script>
+    var header           = document.getElementById('header');
+    var navigationHeader = document.getElementById('navigation_header');
+    var content          = document.getElementById('content');
+    var showSidebar      = false;
+
+    function toggleSidebar()
+    {
+        showSidebar = !showSidebar;
+        if(showSidebar)
+        {
+            navigationHeader.style.marginLeft = '-10vw';
+            navigationHeader.style.animationName = 'showSidebar';
+            content.style.filter = 'blur(2px)';
+        }
+        else
+        {
+            navigationHeader.style.marginLeft = '-100vw';
+            navigationHeader.style.animationName = '';
+            content.style.filter = '';
+        }
+    }
+
+    function closeSidebar()
+    {
+        if(showSidebar)
+        {
+            showSidebar = true;
+            toggleSidebar();
+        }
+    }
+
+    window.addEventListener('resize', function(event) {
+        if(window.innerWidth > 768 && showSidebar) 
+        {  
+            showSidebar = true;
+            toggleSidebar();
+        }
+    });
+
+</script>
+  </body>
 </html>
