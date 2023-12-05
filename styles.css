@@ -82,7 +82,6 @@ body{
 .home{
       height: 90vh;
       display: flex;
-      align-items: center;
       padding: 0 10%;
     }
     .home-content{
