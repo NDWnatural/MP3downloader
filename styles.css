@@ -80,6 +80,7 @@ body{
             to {margin-left: -10vw;}
         }
 .home{
+      align-items: center;
       height: 90vh;
       display: flex;
       padding: 0 10%;
